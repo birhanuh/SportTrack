@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:padding="10px">
+			<TextView android:id="@+id/txDi" android:text="@string/di_u"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				 />
+			<RadioGroup android:id="@+id/rgDist" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_toRightOf="@id/txDi">
+				<RadioButton android:id="@+id/rM" android:layout_width="wrap_content"
+					android:text="@string/metric" android:layout_height="wrap_content" />
+				<RadioButton android:id="@+id/rY" android:layout_width="wrap_content"
+					android:text="@string/mile" android:layout_height="wrap_content" />
+				<RadioButton android:id="@+id/rN" android:layout_width="wrap_content"
+					android:text="@string/naut" android:layout_height="wrap_content" />
+			</RadioGroup>
+			<View android:layout_width="fill_parent" android:layout_height="2dip"
+				android:background="#AAA" android:id="@+id/v1" android:layout_below="@id/rgDist" />
+			<TextView android:text="@string/sp_u" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/txSp"
+				android:layout_below="@id/v1" />
+			<RadioGroup android:id="@+id/rgSp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_toRightOf="@id/txSp"
+				android:layout_below="@id/v1">
+				<RadioButton android:id="@+id/rMs" android:layout_width="wrap_content"
+					android:text="@string/ms" android:layout_height="wrap_content" />
+				<RadioButton android:id="@+id/rKh" android:layout_width="wrap_content"
+					android:text="@string/km" android:layout_height="wrap_content" />
+				<RadioButton android:id="@+id/rMh" android:layout_width="wrap_content"
+					android:text="@string/mph" android:layout_height="wrap_content" />
+				<RadioButton android:id="@+id/rKn" android:layout_width="wrap_content"
+					android:text="@string/kn" android:layout_height="wrap_content" />
+			</RadioGroup>
+			<View android:layout_width="fill_parent" android:layout_height="2dip"
+				android:background="#AAA" android:id="@+id/v2" android:layout_below="@id/rgSp" />
+			<TextView android:text="@string/ti_p" android:id="@+id/txPr"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/v2" />
+			<CheckBox android:checked="false" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" android:text="@string/milis"
+				android:id="@+id/cbPr" android:layout_below="@id/v2"
+				android:layout_toRightOf="@id/txPr"/>
+			<View android:layout_width="fill_parent" android:layout_height="2dip"
+				android:background="#AAA" android:id="@+id/v3" android:layout_below="@id/cbPr" />
+			<TextView android:text="@string/map" android:id="@+id/txMa"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/v3" />
+			<CheckBox android:checked="false" android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" android:text="@string/satel"
+				android:id="@+id/cbMa" android:layout_below="@id/v3"
+				android:layout_toRightOf="@id/txMa"/>
+			<Button android:id="@+id/btOk" android:text="@string/sav"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/cbMa" />
+			<Button android:id="@+id/btCa" android:text="@string/can"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_below="@id/cbMa" android:layout_toRightOf="@id/btOk" />
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

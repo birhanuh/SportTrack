@@ -1,0 +1,248 @@
+if(et.getText().toString().trim().equalsIgnoreCase("")){
+				Toast.makeText(getApplicationContext(), "Please fill in the name.", Toast.LENGTH_LONG).show();
+			} else {
+				ed.setName(et.getText().toString());
+				Main.DQ.open();
+				if(Main.DQ.updateEvent(ed.getTime(), ed) > 0)
+					mes = "Event updated successfully";
+				else 
+					mes = "Problem in updating the event";
+				Main.DQ.close();
+			}
+
+
+
+keytool -list -alias androiddebugkey -keystore debug.keystore -storepass android -keypass android
+
+
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\patricka>
+C:\Users\patricka>
+C:\Users\patricka>
+C:\Users\patricka>cd ..
+
+C:\Users>cd ..
+
+C:\>
+C:\>
+C:\>cd win
+
+C:\win>
+C:\win>
+C:\win>cd android-sdk
+
+C:\win\android-sdk>
+C:\win\android-sdk>cd tools
+
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>android list targets
+Available Android targets:
+id: 1 or "android-3"
+     Name: Android 1.5
+     Type: Platform
+     API level: 3
+     Revision: 4
+     Skins: HVGA (default), HVGA-L, HVGA-P, QVGA-L, QVGA-P
+id: 2 or "Google Inc.:Google APIs:3"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 3
+     Description: Android + Google APIs
+     Based on Android 1.5 (API level 3)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: QVGA-P, HVGA-L, HVGA (default), QVGA-L, HVGA-P
+id: 3 or "android-4"
+     Name: Android 1.6
+     Type: Platform
+     API level: 4
+     Revision: 3
+     Skins: HVGA, QVGA, WVGA800 (default), WVGA854
+id: 4 or "Google Inc.:Google APIs:4"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 1.6 (API level 4)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, HVGA, WVGA800 (default), QVGA
+id: 5 or "android-7"
+     Name: Android 2.1-update1
+     Type: Platform
+     API level: 7
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+id: 6 or "Google Inc.:Google APIs:7"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 1
+     Description: Android + Google APIs
+     Based on Android 2.1-update1 (API level 7)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, HVGA, WQVGA432, WVGA800 (default), QVGA
+id: 7 or "android-8"
+     Name: Android 2.2
+     Type: Platform
+     API level: 8
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+id: 8 or "Google Inc.:Google APIs:8"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 2.2 (API level 8)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, HVGA, WQVGA432, WVGA800 (default), QVGA
+id: 9 or "Samsung Electronics Co., Ltd.:GALAXY Tab Addon:8"
+     Name: GALAXY Tab Addon
+     Type: Add-On
+     Vendor: Samsung Electronics Co., Ltd.
+     Revision: 1
+     Based on Android 2.2 (API level 8)
+     Skins: WVGA854, WQVGA400, GALAXY Tab (default), HVGA, WQVGA432, WVGA800, QV
+GA
+id: 10 or "android-9"
+     Name: Android 2.3.1
+     Type: Platform
+     API level: 9
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+id: 11 or "Google Inc.:Google APIs:9"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 2.3.1 (API level 9)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, HVGA, WQVGA432, WVGA800 (default), QVGA
+id: 12 or "Sony Ericsson Mobile Communications AB:EDK:9"
+     Name: EDK
+     Type: Add-On
+     Vendor: Sony Ericsson Mobile Communications AB
+     Revision: 1
+     Description: XPERIA Device
+     Based on Android 2.3.1 (API level 9)
+     Libraries:
+      * com.sonyericsson.eventstream_1 (com.sonyericsson.eventstream_1.jar)
+          Library for Android Market filtering
+     Skins: WVGA854, WQVGA400, Xperia (default), HVGA, WQVGA432, WVGA800, QVGA
+id: 13 or "android-10"
+     Name: Android 2.3.3
+     Type: Platform
+     API level: 10
+     Revision: 1
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+id: 14 or "Google Inc.:Google APIs:10"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 1
+     Description: Android + Google APIs
+     Based on Android 2.3.3 (API level 10)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, HVGA, WQVGA432, WVGA800 (default), QVGA
+id: 15 or "android-11"
+     Name: Android 3.0
+     Type: Platform
+     API level: 11
+     Revision: 1
+     Skins: WXGA (default)
+id: 16 or "Google Inc.:Google APIs:11"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 1
+     Description: Android + Google APIs
+     Based on Android 3.0 (API level 11)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WXGA (default)
+
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>android list avds
+Available Android Virtual Devices:
+
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>cd ~
+The system cannot find the path specified.
+
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>
+C:\win\android-sdk\tools>cd c:\Users\patricka
+
+c:\Users\patricka>
+c:\Users\patricka>
+c:\Users\patricka>
+c:\Users\patricka>
+c:\Users\patricka>cd .android
+
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F682-FD8E
+
+ Directory of c:\Users\patricka\.android
+
+06.04.2011  13:33    <DIR>          .
+06.04.2011  13:33    <DIR>          ..
+06.04.2011  12:14               123 adb_usb.ini
+06.04.2011  12:03    <DIR>          avd
+06.04.2011  12:27                60 ddms.cfg
+06.04.2011  13:33             1 267 debug.keystore
+30.04.2011  16:56                76 repositories.cfg
+               4 File(s)          1 526 bytes
+               3 Dir(s)  76 728 283 136 bytes free
+
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>
+c:\Users\patricka\.android>keytool -list -alias androiddebugkey -keystore debug.
+keystore -storepass android -keypass android
+androiddebugkey, 6.4.2011, PrivateKeyEntry,
+Certificate fingerprint (MD5): 28:30:6C:92:9D:FE:B8:74:4F:8F:DE:AA:91:52:D7:4F
+
+c:\Users\patricka\.android>
+
+
+
+
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0_Ny6RN8NENINlo9v-2fg4Kgg99Zn1XxSUYt8Zg"
+                 />

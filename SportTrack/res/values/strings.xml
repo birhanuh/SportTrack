@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SporTrack</string>
+    <string name="start">Start</string>
+    <string name="restart">Continue current event</string>
+    <string name="stop">Stop</string>
+    <string name="res">Reset</string>
+    <string name="rese">Reset to start a new event</string>
+    <string name="speed">Speed</string>
+    <string name="cur">Current</string>
+    <string name="avg">Average</string>
+    <string name="top">Top</string>
+    <string name="g">GPS</string>
+    <string name="loc">Location</string>
+    <string name="four">5 Points</string>
+    <string name="ti">Time</string>
+    <string name="di">Distance</string>
+    <!-- in preferences -->
+    <string name="di_u">Distance Unit:&#160;</string>
+    <string name="metric">Metric (m, km)</string>
+    <string name="mile">Mile (yd, mi)</string>
+    <string name="naut">Nautical Mile (nmi)</string>
+    <string name="sp_u">Speed Unit:&#160;</string>
+    <string name="ms">m/s</string>
+    <string name="km">km/h</string>
+    <string name="mph">mph</string>
+    <string name="kn">knot</string>
+    <string name="ti_p">Time Precision:&#160;</string>
+    <string name="milis">Millisecond</string>
+    <string name="map">Map:&#160;</string>
+    <string name="satel">Satellite</string>
+    <string name="sav">&#160;&#160;&#160;&#160;&#160;&#160;&#160;Save&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="can">&#160;&#160;&#160;&#160;&#160;&#160;Cancel&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="sel_ev">Select Event</string>
+</resources>

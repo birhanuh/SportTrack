@@ -1,0 +1,28 @@
+- check gps before launching.
+
+- UI?
+ 
+- maps? 
+    - yes if time
+    - update map in live (if network (to check)) <= NP
+    - save points to db
+
+PRIORITY:
+== DONE?
+- more acruate?
+    - curent speed update only XX sec? maybe yes!
+    - floating average (keep last 3-5 points)
+- wait UNTIL points get accruate
+==
+use accuracy :)
+
+
+Option
+== DONE - mph? nautic miles/h <= into options NP ==
+- automatic stop if battery under 15% <= nice to have NP
+- show debug stuff?
+
+
+
+- Open source release
+- more mesure with other sensor (jump hight, acceleration, turn speed, etc.)
